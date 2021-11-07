@@ -46,7 +46,13 @@
     <header class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">Prendas</h1>
+                <h1 class="display-4 fw-bolder">Prendas 
+                    <?php
+                      require_once 'Util/Conection.php';
+                      $con = new Conexion();
+                      $con->getConexion();
+                    ?>
+                </h1>
                 <p class="lead fw-normal text-white-50 mb-0">Ropa en oferta</p>
             </div>
         </div>
