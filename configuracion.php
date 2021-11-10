@@ -6,7 +6,7 @@ class Config
 
     public function getRoute($ruta)
     {
-        $newRuta = "http://magentastyle.herokuapp.com/" . $ruta . "";
+        $newRuta = "" . $ruta . "";
         echo $newRuta;
 
     }
