@@ -1,5 +1,5 @@
 <?php include "js.php"?>
-<footer id="footer" class="footer-1">
+<!-- <footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">
         <div class="container">
             <div class="row">
@@ -77,13 +77,13 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>Copyright Company Name © 2021. All rights reserved.</p>
+                    <p>Copyright Magenta Satyle © 2021.</p>
                 </div>
             </div>
         </div>
