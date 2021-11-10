@@ -1,5 +1,5 @@
 <?php  
-require_once 'config.php'; 
+require_once 'configuracion.php'; 
 $Config = new Config();
 ?>
 <!DOCTYPE html>
