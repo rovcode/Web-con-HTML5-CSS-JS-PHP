@@ -1,9 +1,35 @@
 html,body{
   height:100%;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Normal;
  
 }
-
+.navbar{
+  text-transform: uppercase !important;
+}
+.carrito{
+  margin-right: 3rem!important;
+}
+/* #textoSlider{
+  top:0px !important;
+  position: absolute !important;
+} */
+@media (max-width:768px) {
+  .navbar-brand{
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+  .carrito{
+    margin-right: 0rem!important;
+  }
+}
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999 !important;
+  position: relative;
+}
+.m-menu{
+  margin-top:75px !important;
+}
 i{
   color:#000 !important;
 }
