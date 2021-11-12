@@ -1,8 +1,8 @@
-<?php include "View/snippets/head.php"?>
+<?php include "snippets/head.php"?>
 <body>
     <!--Barra de navegacion-->
     <!--Navbar -->
-    <?php include_once 'http://magentastyle.herokuapp.com/View/snippets/Menu.php';?>
+    <?php include_once 'snippets/Menu.php';?>
     <!--/.Navbar -->
     <!--Encabezado-->
     <header class="bg-dark py-5">
@@ -24,7 +24,7 @@
     <!-- Productos seccion-->
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quasi impedit. Illum veritatis, magni temporibus deserunt dolor, ipsum voluptatem sequi repudiandae, optio doloribus soluta ut quos laborum! Placeat, consectetur omnis.
     <!-- Pie de seccion-->
-    <?php include "View/snippets/footer.php"?>
+    <?php include "snippets/footer.php"?>
 </body>
 
 </html>
