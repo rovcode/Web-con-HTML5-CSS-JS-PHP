@@ -1,10 +1,10 @@
 <?php  
-require_once 'configuracion.php'; 
+require_once 'config.php'; 
 $Config = new Config();
 ?>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="<?php $Config->getRoute("index.php");?>"> <i class="fas fa-blog"></i> Magenta
+        <a class="navbar-brand" href="<?php $Config->getRoute("index.php");?>"><img width="50" height="50" src="Public/asset/img/ico.ico" alt=""> Magenta
             Style</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

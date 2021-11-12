@@ -1,5 +1,5 @@
 <?php  
-require_once 'configuracion.php'; 
+require_once 'config.php'; 
 $Config = new Config();
 ?>
 <!DOCTYPE html>
@@ -10,5 +10,6 @@ $Config = new Config();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "css.php"?>
+    <link rel="shortcut icon" href="Public/asset/img/ico.ico">
     <title><?php $Config->setName()?></title>
 </head>

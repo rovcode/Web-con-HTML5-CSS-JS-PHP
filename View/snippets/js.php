@@ -7,6 +7,6 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-//code jquery
+  $('.carousel').carousel();
 });
 </script>

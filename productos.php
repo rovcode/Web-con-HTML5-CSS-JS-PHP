@@ -19,12 +19,12 @@
     </header>
     <!-- Productos seccion-->
     <section class="py-5">
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
                         <!-- Imagen del producto-->
-                        <img class="card-img-top" src="Public/images/short.jpg" alt="short" />
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
                         <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -40,151 +40,102 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
-                        <!-- Producto 2-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                            Oferta</div>
                         <!-- Imagen del producto-->
-                        <img class="card-img-top" src="Public/images/abrigo.jpg" alt="abrigo" />
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
                         <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
-                                <!-- Nombre-->
-                                <h5 class="fw-bolder">Abrigo</h5>
-                                <!-- Estrellas-->
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-                                <!-- Precio-->
-                                <span class="text-muted text-decoration-line-through">S/20.00</span>
-                                S/15.00
+                                <!-- Nombre del producto-->
+                                <h5 class="fw-bolder">Short</h5>
+                                <!-- Precio del producto-->
+                                S/40.00
                             </div>
                         </div>
-                        <!-- Compra-->
+                        <!-- Compra -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                            Oferta</div>
-                        <img class="card-img-top" src="Public/images/bufanda.jpg" alt="bufanda" />
+                        <!-- Imagen del producto-->
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
+                        <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
-                                <h5 class="fw-bolder">Bufanda</h5>
-                                <span class="text-muted text-decoration-line-through">S/20.00</span>
-                                S/8.00
+                                <!-- Nombre del producto-->
+                                <h5 class="fw-bolder">Short</h5>
+                                <!-- Precio del producto-->
+                                S/40.00
                             </div>
                         </div>
+                        <!-- Compra -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
-                        <img class="card-img-top" src="Public/images/buzo.jpg" alt="buzo" />
+                        <!-- Imagen del producto-->
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
+                        <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
-                                <h5 class="fw-bolder">Buzo</h5>
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-                                S/60.00
+                                <!-- Nombre del producto-->
+                                <h5 class="fw-bolder">Short</h5>
+                                <!-- Precio del producto-->
+                                S/40.00
                             </div>
                         </div>
+                        <!-- Compra -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                            Oferta</div>
-                        <img class="card-img-top" src="Public/images/casaca.jpg" alt="casaca" />
+                        <!-- Imagen del producto-->
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
+                        <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
-                                <h5 class="fw-bolder">Casaca</h5>
-                                <span class="text-muted text-decoration-line-through">S/40.00</span>
-                                S/30.00
+                                <!-- Nombre del producto-->
+                                <h5 class="fw-bolder">Short</h5>
+                                <!-- Precio del producto-->
+                                S/40.00
                             </div>
                         </div>
+                        <!-- Compra -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 col-12 col-md-4">
                     <div class="card h-100">
-                        <img class="card-img-top" src="Public/images/gorra.jpg" alt="gorra" />
+                        <!-- Imagen del producto-->
+                        <img class="card-img-top" src="Public/asset/img/short.jpg" alt="short" />
+                        <!-- Detalles-->
                         <div class="card-body p-4">
                             <div class="text-center">
-                                <h5 class="fw-bolder">Gorra</h5>
-                                S/30.00
+                                <!-- Nombre del producto-->
+                                <h5 class="fw-bolder">Short</h5>
+                                <!-- Precio del producto-->
+                                S/40.00
                             </div>
                         </div>
+                        <!-- Compra -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                            Oferta</div>
-                        <img class="card-img-top" src="Public/images/jean.jpg" alt="jean" />
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <h5 class="fw-bolder">Jean</h5>
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-                                <span class="text-muted text-decoration-line-through">S/70.00</span>
-                                S/55.00
-                            </div>
-                        </div>
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="Public/images/polo.jpg" alt="polo" />
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <h5 class="fw-bolder">Polo</h5>
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-                                S/25.00
-                            </div>
-                        </div>
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

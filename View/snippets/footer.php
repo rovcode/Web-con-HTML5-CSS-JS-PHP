@@ -1,40 +1,37 @@
 <?php include "js.php"?>
-<!-- <footer id="footer" class="footer-1">
+<footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">
         <div class="container">
             <div class="row">
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget subscribe no-box">
-                        <h5 class="widget-title">COMPANY NAME<span></span></h5>
-                        <p>About the company, little discription will goes here.. </p>
+                        <h5 class="widget-title">Magenta Style<span></span></h5>
+                        <p>Tienda de ropa online </p>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget no-box">
-                        <h5 class="widget-title">Quick Links<span></span></h5>
+                        <h5 class="widget-title">Accesos<span></span></h5>
                         <ul class="thumbnail-widget">
                             <li>
-                                <div class="thumb-content"><a href="#.">Get Started</a></div>
+                                <div class="thumb-content"><a href="#.">Privacidad</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Top Leaders</a></div>
+                                <div class="thumb-content"><a href="#.">Terminos y condiciones</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Success Stories</a></div>
+                                <div class="thumb-content"><a href="#.">Preguntas Frecuentes</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Event/Tickets</a></div>
+                                <div class="thumb-content"><a href="#.">Ayuda</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">News</a></div>
+                                <div class="thumb-content"><a href="#.">Contacto</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Lifestyle</a></div>
-                            </li>
-                            <li>
-                                <div class="thumb-content"><a href="#.">About</a></div>
+                                <div class="thumb-content"><a href="#.">Libro de reclamaciones</a></div>
                             </li>
                         </ul>
                     </div>
@@ -42,18 +39,18 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget no-box">
-                        <h5 class="widget-title">Get Started<span></span></h5>
-                        <p>Get access to your full Training and Marketing Suite.</p>
-                        <a class="btn" href="https://bit.ly/3m9avif" target="_blank">Subscribe Now</a>
+                        <h5 class="widget-title">Boletin<span></span></h5>
+                        <p>Recibir noticias de promociones.</p>
+                        <a class="btn" href="<?php $Config->getRoute("index.php");?>" >Subscribirme</a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
                     <div class="widget no-box">
-                        <h5 class="widget-title">Contact Us<span></span></h5>
+                        <h5 class="widget-title">Contacto<span></span></h5>
 
-                        <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+                        <p><a href="mailto:info@domain.com" title="glorythemes">info@magentastyle.com</a></p>
                         <ul class="social-footer2">
                             <li class=""><a title="youtube" target="_blank" href="https://bit.ly/3m9avif"><img
                                         alt="youtube" width="30" height="30"
@@ -77,7 +74,7 @@
 
             </div>
         </div>
-    </div> -->
+    </div>
 
     <div class="footer-copyright">
         <div class="container">
