@@ -2,7 +2,7 @@
 <body>
     <!--Barra de navegacion-->
     <!--Navbar -->
-    <?php include_once 'View/snippets/Menu.php';?>
+    <?php include_once 'View/snippets/menu.php';?>
     <!--/.Navbar -->
     <!--Encabezado-->
     <header class="bg-dark py-5">
