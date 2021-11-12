@@ -1,8 +1,8 @@
-<?php include "snippets/head.php"?>
+<?php include "View/snippets/head.php"?>
 <body>
     <!--Barra de navegacion-->
     <!--Navbar -->
-    <?php include_once 'snippets/menu.php';?>
+    <?php include_once 'View/snippets/menu.php';?>
     <!--/.Navbar -->
     <!--Encabezado-->
     <header class="bg-dark py-5">
@@ -24,7 +24,7 @@
     <!-- Productos seccion-->
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quasi impedit. Illum veritatis, magni temporibus deserunt dolor, ipsum voluptatem sequi repudiandae, optio doloribus soluta ut quos laborum! Placeat, consectetur omnis.
     <!-- Pie de seccion-->
-    <?php include "snippets/footer.php"?>
+    <?php include "View/snippets/footer.php"?>
 </body>
 
 </html>
