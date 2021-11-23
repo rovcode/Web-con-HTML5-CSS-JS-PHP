@@ -9,10 +9,10 @@ html,body{
 .carrito{
   margin-right: 3rem!important;
 }
-/* #textoSlider{
-  top:0px !important;
-  position: absolute !important;
-} */
+.acceso_login_carrito{
+padding:11px !important;
+}
+
 @media (max-width:768px) {
   .navbar-brand{
     font-size: 15px !important;
@@ -20,6 +20,9 @@ html,body{
   }
   .carrito{
     margin-right: 0rem!important;
+  }
+  .acceso_login_carrito{
+    padding: 5px !important;
   }
 }
 .wrapper{

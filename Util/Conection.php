@@ -11,7 +11,7 @@ class Conexion
         {
             $this->VAR_PDO = new PDO("mysql:host=" . $this->VAR_SERVER . ";dbname=" . $this->VAR_DB . "", "f9accbyl9g2ctzzp", "nnkardo1ar0mazk6");
             if ($this->VAR_PDO) {
-                echo "Conectado a <b>" . $this->VAR_DB . "</b>";
+                // echo "Conectado a <b>" . $this->VAR_DB . "</b>";
             }
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage . "<br>";

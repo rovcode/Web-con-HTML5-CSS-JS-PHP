@@ -38,12 +38,12 @@ $Config = new Config();
                 </li>
             </ul>
         </div>
-        <div class=" login" id="login">
-            <a href="<?php $Config->getRoute("login.php");?>" class="">
+        <div >
+            <a id="login" href="<?php $Config->getRoute("login.php");?>" class="shadow p-2 mb-3 bg-white rounded acceso_login_carrito" >
                 <i class="fas fa-user" style="font-size:20px"></i>
             </a>
         </div>
-        <div class="ml-2 carrito"><a href="<?php $Config->getRoute("carrito.php");?>"><i class="fas fa-shopping-basket"
+        <div class="ml-2 "><a  id="carrito" href="<?php $Config->getRoute("carrito.php");?>" class="shadow p-2 mb-3 bg-white rounded acceso_login_carrito"><i class="fas fa-shopping-basket"
                     style="font-size:20px"></i>
                 <span class="badge badge-danger notification">4</span>
             </a>
