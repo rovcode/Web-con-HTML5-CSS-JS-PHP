@@ -54,9 +54,10 @@
                 <span class="badge badge-info right">6</span>
               </p>
             </a>
+            
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php $Config->getRoute("tipoPersonal.php");?>" class="nav-link">
+                <a href=" <?php $Config->getRoute("tipoPersonal.php");?>" class="nav-link">
                   <i class="fas fa-fingerprint nav-icon"></i>
                   <p>Tipo Personal</p>
                 </a>

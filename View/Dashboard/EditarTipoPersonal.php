@@ -1,13 +1,20 @@
 
 <?php include_once 'layout.php';?>
+<?php 
+include_once '../../Controller/administracion/TipoPersonalController.php';
+$update = new TipoPersonalController();
+$id=$_GET['cod'];
+$update->show($id);
+
+?>
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
 
         <!-- Preloader -->
-        <div class="preloader flex-column justify-content-center align-items-center">
+        <!-- <div class="preloader flex-column justify-content-center align-items-center">
             <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-        </div>
+        </div> -->
 
         <!-- Navbar -->
         <?php include_once 'menuHorizontalSuperior.php';?>
@@ -23,13 +30,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Nuevo Tipo Personal</h1>
+                            <h1 class="m-0">Editar Tipo Personal</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="#">Inicio</a></li>
                                 <li class="breadcrumb-item"><a href="#">Tipo Personal</a></li>
-                                <li class="breadcrumb-item active">Nuevo</li>
+                                <li class="breadcrumb-item active">Editar</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -51,15 +58,16 @@
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Nuevo Tipo Personal</h3>
+                
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-            
+          
                 <input type="hidden" name="option" value="2" id="option">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
-                    <input type="text" class="form-control" name="nombreTipo" id="nombre" placeholder="Vendedor">
+                    <input type="text" class="form-control" name="nombreTipo" id="nombre" placeholder="Vendedor" value="">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Detalle</label>
@@ -109,7 +117,20 @@
     <?php include_once 'footer.php'; ?>
     <script type="text/javascript" >
         //Mantenimiento
-       
+        DetalleTipoPersonal();
+       function DetalleTipoPersonal(){
+         let id = $_GET["cod"];
+         let option = 4;
+        $.ajax({
+				type:"GET",
+				url:"../../Controller/administracion/TipoPersonalController.php",
+                data: {id:id,option:option},
+				success: function(datos){
+					$('#Resu').html(datos);
+                    console.log(datos);
+				}
+			});
+       }
         function RegistrarTipoPersonal(){          
             let nombre  = $('#nombre').val();
             let detalle = $('#detalle').val();
