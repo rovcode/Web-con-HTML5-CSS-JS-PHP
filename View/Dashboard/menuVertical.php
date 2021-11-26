@@ -50,7 +50,7 @@
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Personal
-                <i class="fas fa-angle-left right"></i>
+                <i class="fas fa-angle-right right"></i>
                 <span class="badge badge-info right">6</span>
               </p>
             </a>
@@ -75,7 +75,7 @@
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Clientes
-                <i class="right fas fa-angle-left"></i>
+                <i class="right fas fa-angle-right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -110,7 +110,7 @@
               <i class="nav-icon fas fa-tree"></i>
               <p>
                 Productos
-                <i class="fas fa-angle-left right"></i>
+                <i class="fas fa-angle-right right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -169,7 +169,7 @@
               <i class="nav-icon fas fa-edit"></i>
               <p>
               Almacen
-                <i class="fas fa-angle-left right"></i>
+                <i class="fas fa-angle-right right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -204,7 +204,7 @@
               <i class="nav-icon fas fa-table"></i>
               <p>
                Promociones
-                <i class="fas fa-angle-left right"></i>
+                <i class="fas fa-angle-right right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">

@@ -52,6 +52,21 @@ class TipoPersonalDAO
             echo "Error: " . $e->getMessage();
         }
     }
+    public function ActualizarTipo(TipoPersonal $tipoPersonal){
+        try {
+            $cn = new Conexion();
+            $pdo = $cn->getConexion();
+            $stmt= $pdo->prepare("UPDATE titpopersonal SET NOMTIPO=?,DETALLE=?, TITPOUSUARIO=? WHERE ID=?");
+            $stmt->bindParam(1,$tipoPersonal->codigo);  
+            $stmt->bindParam(2,$tipoPersonal->nombre); 
+            $stmt->bindParam(3,$tipoPersonal->detalle);   
+            $stmt->bindParam(4,$tipoPersonal->tipo);  
+                  
+            $stmt->execute(); 
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+        }
+    }
     public function EliminarTipo(TipoPersonal $tipoPersonal){
        try {
         $cn = new Conexion();
