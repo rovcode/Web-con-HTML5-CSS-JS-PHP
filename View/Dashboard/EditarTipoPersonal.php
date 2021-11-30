@@ -162,7 +162,7 @@ $.widget.bridge('uibutton', $.ui.button)
             if (willDelete) {
                 $.ajax({
                     type: "POST",
-                    url: "../../Model/Helper/helperPersonal.php",
+                    url: "../../Model/helper/HelperPersonal.php",
                     data: {
                        option: option,
                         id: id,                        

@@ -176,7 +176,7 @@ function EliminarTipo(id) {
             if (willDelete) {
                 $.ajax({
                     type: "POST",
-                    url: "../../Model/Helper/helperPersonal.php",
+                    url: "../../Model/helper/HelperPersonal.php",
                     data: {
                         id: id,
                         option: option

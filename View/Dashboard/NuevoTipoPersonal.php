@@ -140,7 +140,7 @@ $.widget.bridge('uibutton', $.ui.button)
        let tipo = $('#tipo').val();
        $.ajax({
            type: "POST",
-           url: "../../Model/Helper/helperPersonal.php",
+           url: "../../Model/helper/HelperPersonal.php",
            data: {nombre: nombre,detalle:detalle,tipo:tipo},
            success: function (data){
             $("#msg").removeClass('d-none');
