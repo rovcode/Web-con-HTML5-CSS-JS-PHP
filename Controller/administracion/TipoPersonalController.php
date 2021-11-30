@@ -49,7 +49,7 @@ class TipoPersonalController
         $TipoPersonal->setTipo($tipo);
         $this->model->RegistrarTipo($TipoPersonal);
     }
-    public function Update()
+    public function UpdateAdd()
     {
         if (isset($_POST["nombre"])) {
             $nombre = $_POST["nombre"];
@@ -63,14 +63,13 @@ class TipoPersonalController
         if (isset($_POST["id"])) {
           $id = $_POST["id"];
         }
-        $TipoPersonal = new TipoPersonal();
-        $TipoPersonal->setCodigo($id);
-        $TipoPersonal->setNombre($nombre);
-        $TipoPersonal->setDetalle($detalle);
-        $TipoPersonal->setTipo($tipo);
-        var_dump($TipoPersonal);
-        die();
-        //$this->model->ActualizarTipo($TipoPersonal);
+      
+        $TipoPersonalUpdate = new TipoPersonal();
+        $TipoPersonalUpdate->setCodigo($id);
+        $TipoPersonalUpdate->setNombre($nombre);
+        $TipoPersonalUpdate->setDetalle($detalle);
+        $TipoPersonalUpdate->setTipo($tipo);
+       $this->model->ActualizarTipo($TipoPersonalUpdate);
     }
     public function delete()
     {

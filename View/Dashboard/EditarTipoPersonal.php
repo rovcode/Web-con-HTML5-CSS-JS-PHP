@@ -92,13 +92,12 @@ $Config = new Config();
 
 
 
-    <footer class="main-footer">
-        <strong>Copyright &copy;2021</a>.</strong>
-        All rights reserved.
-        <div class="float-right d-none d-sm-inline-block">
-            <b>Version</b> 3.1.0
-        </div>
-    </footer>
+<footer class="main-footer">
+            <strong>Copyright &copy; 2021 
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Version</b> 3.1.0
+            </div>
+ </footer>
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -164,7 +163,7 @@ $.widget.bridge('uibutton', $.ui.button)
                     type: "POST",
                     url: "../../Model/helper/HelperPersonal.php",
                     data: {
-                       option: option,
+                        option: option,
                         id: id,                        
                         nombre: nombre,
                         detalle: detalle,
@@ -172,7 +171,7 @@ $.widget.bridge('uibutton', $.ui.button)
                     },
                     success: function(data) {
                        setInterval(() => {
-                          window.location.href = "tipoPersonal.php";
+                         // window.location.href = "tipoPersonal.php";
                        }, 1000);
                     },
                 });

@@ -58,8 +58,8 @@ class Router
             $controller = "TipoPersonal";
             require_once "../../Controller/administracion/" . $controller . "Controller.php";
             $controller = ucwords($controller) . 'Controller';
-            $controller = new $controller;
-            $controller->Updatedd();
+            $controller = new $controller;          
+            $controller->UpdateAdd();
         }
         if ($var === "Delete") {
             $controller = "TipoPersonal";

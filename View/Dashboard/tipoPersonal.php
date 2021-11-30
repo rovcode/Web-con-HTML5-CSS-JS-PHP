@@ -12,13 +12,13 @@ $Config = new Config();
          <div class="container-fluid">
              <div class="row mb-2">
                  <div class="col-sm-6">
-                     <h1 class="m-0">Dashboard </h1>
+                     <h1 class="m-0">Tipo Personal</h1>
 
                  </div><!-- /.col -->
                  <div class="col-sm-6">
                      <ol class="breadcrumb float-sm-right">
-                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                         <li class="breadcrumb-item active">Dashboard v1</li>
+                         <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                         <li class="breadcrumb-item active">Tipo Personal</li>
                      </ol>
                  </div><!-- /.col -->
              </div><!-- /.row -->
@@ -91,8 +91,7 @@ foreach ($lista as $value) {?>
                              <div class="row">
                                  <div class="col-sm-12 col-md-5">
                                      <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">
-                                        En la base de datos hay <?php foreach ($lista as $key => $value) {$total = $key + 1;
-    echo $total;}?> registros.
+                                       
                                      </div>
                                  </div>
                              </div>
@@ -111,12 +110,11 @@ foreach ($lista as $value) {?>
 
 
  <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-            All rights reserved.
+            <strong>Copyright &copy; 2021 
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.1.0
             </div>
-        </footer>
+ </footer>
 
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
