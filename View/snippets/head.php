@@ -20,5 +20,6 @@ $Config = new Config();
     <?php include "css.php"?>
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="Public/asset/img/ico.ico">
+    <script src="./script.js"></script>
     <title><?php $Config->setName()?></title>
 </head>
