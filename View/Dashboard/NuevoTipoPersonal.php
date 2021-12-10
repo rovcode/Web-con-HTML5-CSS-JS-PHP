@@ -133,13 +133,14 @@ $.widget.bridge('uibutton', $.ui.button)
 <script type="text/javascript">
     //Mantenimiento
     function RegistrarTipoPersonal(){
+       let option = "Nuevo_Tipo_Personal"
        let nombre = $('#nombre').val();
        let detalle  = $('#detalle').val();
        let tipo = $('#tipo').val();
        $.ajax({
            type: "POST",
            url: "../../Model/helper/HelperPersonal.php",
-           data: {nombre: nombre,detalle:detalle,tipo:tipo},
+           data: {nombre: nombre,detalle:detalle,tipo:tipo,option:option},
            success: function (data){
             $("#msg").removeClass('d-none');
              setInterval(() => {

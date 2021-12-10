@@ -122,7 +122,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link pills" data-widget="fullscreen" href="#" role="button">
+        <a class="nav-link pills"  href="<?php session_destroy();?>" role="button" onclick="Index()">
           Cerrar Sesión
         </a>
       </li>
@@ -133,3 +133,11 @@
       </li>
     </ul>
   </nav>
+  <?php
+ if (isset($_SESSION["NuevoUsuarioWeb"]) || isset($_SESSION["Login"])){
+
+ }else{
+   header("Location:../../index.php");
+ }
+
+?>

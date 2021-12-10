@@ -1,4 +1,5 @@
 <?php
+
   require_once '../../config.php';
   $Config = new Config();
 ?>
@@ -29,6 +30,9 @@
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <script type="text/javascript">
+</script>
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">

@@ -1,7 +1,7 @@
 <?php
 require_once '../../Util/Conection.php';
 require_once 'administracion/TipoPersonal.php';
-
+ 
 class TipoPersonalDAO
 {
 

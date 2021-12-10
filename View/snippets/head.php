@@ -1,6 +1,7 @@
 <?php  
 require_once 'config.php'; 
 $Config = new Config();
+
 ?>
 <!DOCTYPE html>
 <html lang="es">

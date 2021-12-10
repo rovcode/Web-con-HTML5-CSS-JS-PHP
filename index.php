@@ -1,49 +1,290 @@
-<?php include "View/snippets/head.php"?>
+<?php include_once 'View/snippets/head.php';?>
+<body> 
 
-<body>
+<div class="super_container">
+	
+<?php  include_once 'View/snippets/menuv2.php';?>
+	<!-- Home -->
 
-    <!--Barra de navegacion-->
-    <!--Navbar -->
-    <?php include_once 'View/snippets/menu.php';?>
-    <!--/.Navbar -->
-    <!--Encabezado-->
-    <div class="wrapper ">
-        <div id="carouselExampleIndicators" class="carousel slide mt-7"  data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-            </ol>
+	<div class="home">
+		
+		<!-- Home Slider -->
 
-            <div class="carousel-inner" >
-                <div class="carousel-item active">
-                    <img class="d-block w-100 m-menu"
-                        src="https://livedemo00-opencart.template-help.com/opencart_prod-12337/skin1/image/cache/catalog/slide-1-2050x1068.jpg"
-                        alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block" id="textoSlider">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 m-menu" 
-                        src="https://livedemo00-opencart.template-help.com/opencart_prod-12337/skin1/image/cache/catalog/slide-3-2050x1068.jpg"
-                        alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Seed slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-            </div>
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(Public/asset/v2/images/01.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_subtitle">Hoy</div>
+							<div class="home_slider_title">Nuevos diseños</div>
+						</div>	
+					</div>
+				</div>
 
-            </a>
-        </div>
-    </div>
-    <section class="sobreMagenta" style="height:300px;background-color:#ddb293;">
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(Public/asset/v2/images/02.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_subtitle">Sevicios</div>
+							<div class="home_slider_title">Ropa al po mayor</div>
+						</div>	
+					</div>
+				</div>
 
-    </section>
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(Public/asset/v2/images/03.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_subtitle">Promociones</div>
+							<div class="home_slider_title">Promos navideñas</div>
+						</div>	
+					</div>
+				</div>
 
-    <?php include "View/snippets/footer.php"?>
-</body>
+			</div>
+			
+			<!-- Home Slider Nav -->
 
-</html>
+			<div class="home_slider_next d-flex flex-column align-items-center justify-content-center"><img src="images/arrow_r.png" alt=""></div>
+
+			<!-- Home Slider Dots -->
+
+			<div class="home_slider_dots_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_slider_dots">
+								<ul id="home_slider_custom_dots" class="home_slider_custom_dots">
+									<li class="home_slider_custom_dot active">01.<div></div></li>
+									<li class="home_slider_custom_dot">02.<div></div></li>
+									<li class="home_slider_custom_dot">03.<div></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<!-- Promo -->
+
+	<div class="promo">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">Nuevos</div>
+						<div class="section_title">Productos recientes</div>
+					</div>
+				</div>
+			</div>
+			<div class="row promo_container">
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="Public/asset/v2/images/promo_1.jpg" alt="">
+							<div class="promo_content promo_content_1">
+								<div class="promo_title">-30% off</div>
+								<div class="promo_subtitle">on all bags</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="Public/asset/v2/images/promo_2.jpg" alt="">
+							<div class="promo_content promo_content_2">
+								<div class="promo_title">-30% off</div>
+								<div class="promo_subtitle">coats & jackets</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="Public/asset/v2/images/promo_3.jpg" alt="">
+							<div class="promo_content promo_content_3">
+								<div class="promo_title">-25% off</div>
+								<div class="promo_subtitle">on Sandals</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- New Arrivals -->
+
+	<div class="arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">Recomendados</div>
+						<div class="section_title">Más vendidos</div>
+					</div>
+				</div>
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="Public/asset/v2/images/product_1.jpg" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">Woman's Long Dress</a></div>
+								<div class="product_price">$45.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="Public/asset/v2/images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="Public/asset/v2/images/product_2.jpg" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">2 Piece Swimsuit</a></div>
+								<div class="product_price">$35.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="Public/asset/v2/images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="Public/asset/v2/images/product_3.jpg" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">Man Blue Jacket</a></div>
+								<div class="product_price">$145.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="Public/asset/v2/images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Extra -->
+
+	<div class="extra clearfix">
+		<div class="extra_promo extra_promo_1">
+			<div class="extra_promo_image" style="background-image:url(Public/asset/v2/images/extra_1.jpg)"></div>
+			<div class="extra_1_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="extra_1_price">30%<span>off</span></div>
+				<div class="extra_1_title">On all shoes</div>
+				<div class="extra_1_text">*Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra.</div>
+				<div class="button extra_1_button"><a href="checkout.html">check out</a></div>
+			</div>
+		</div>
+		<div class="extra_promo extra_promo_2">
+			<div class="extra_promo_image" style="background-image:url(Public/asset/v2/images/extra_2.jpg)"></div>
+			<div class="extra_2_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="extra_2_title">
+					<div class="extra_2_center">&</div>
+					<div class="extra_2_top">Mix</div>
+					<div class="extra_2_bottom">Match</div>
+				</div>
+				<div class="extra_2_text">*Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra.</div>
+				<div class="button extra_2_button"><a href="checkout.html">check out</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<div class="newsletter_content">
+			<div class="newsletter_image" style="background-image:url(Public/asset/v2/images/newsletter.jpg)"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">Para ti</div>
+							<div class="section_title">Registrate y recibe un 20% de descuento</div>
+							<div class="button gallery_button"><a href="#">Registrarme</a></div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row newsletter_container">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="newsletter_form_container">
+							<form action="#">
+								<input type="email" class="newsletter_input" required="required" placeholder="E-mail here">
+								
+							</form>
+						</div>
+						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+<?php  include_once 'View/snippets/footer.php'; ?>

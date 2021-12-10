@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(Fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin: 0px;
+}
+
+.papa-chacalon{
+	max-width: 1000px;
+	margin: auto;
+	height: 90%;
+}
+
+header{
+	
+}
+
+	header h1{
+		color: white;
+		margin: 0px 0px 15px 5px;
+		padding: 15px 0px 0px 0px;
+	}
+
+section{
+	display: flex;
+	padding-bottom: 100px;
+}
+
+	section .hijo-section{
+		flex: 1 1 auto;
+	}
+
+	section .hijo-section h3{
+		color: white;
+		margin-top: 130px;
+		font-size: 50px;
+	}
+
+	section .hijo-section p{
+		color: white;
+		width: 400px;
+		font-size: 20px;
+		margin-top: 25px;
+	}
+
+	section .hijo-section2{
+		flex: 1 1 auto;
+		color: gray;
+	}
+
+	section .hijo-section2 h3{
+		color: gray;
+	}
+
+	section .hijo-section2 p{
+		color: gray;
+	}
+
+	.card-login{
+		background: rgba(255, 255, 255, 0.8);
+		margin: 80px 30px 0px 80px;
+		padding: 0px 25px 0px 25px;
+		color: grey;
+		height: auto;
+		
+		box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+	}
+
+		.card-login h3{
+			font-size: 30px;
+			padding: 35px 0px 30px 0px;
+		}
+
+		.card-login  input{
+			display: block;
+			margin: 0px 0px 15px 0px;
+			border: 0px;
+			border-bottom: 2px solid gray;
+			width: 100%;
+			font-size: 20px;
+			color: gray;
+		}
+
+		.card-login .recuerdame{
+			display: flex;
+			justify-content: space-between;
+		}
+
+			.card-login .recuerdame label{
+				text-align: right;
+			}
+			.card-login .recuerdame a{
+				text-align: left;
+				display: block;
+			}
+		label input{
+			padding: 0;
+			margin: 0;
+			display: inline;
+			border: 1 solid black;
+		} 
+
+		.card-login .registrame{
+			display: flex;
+			margin-top: 80px;
+			justify-content: right;
+		}
+
+			.card-login div{
+				flex: end;
+				padding: 10px;
+				margin-left: 10px;
+			}
+
+				.card-login div div:hover{
+					background-color: gray;
+					color: white;
+				}
+
+		.card-login .boton{
+			cursor: pointer;
+		}
+

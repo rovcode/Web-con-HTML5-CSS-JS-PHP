@@ -1,5 +1,6 @@
 <?php
 
+/*****clase************/
 class Conexion
 {
     protected $VAR_PDO = null;
@@ -19,4 +20,5 @@ class Conexion
         return $this->VAR_PDO;
     }
 }
+
 
