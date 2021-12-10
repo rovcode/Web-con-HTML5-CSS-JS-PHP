@@ -93,7 +93,7 @@
 							<img src="Public/asset/v2/images/promo_1.jpg" alt="">
 							<div class="promo_content promo_content_1">
 								<div class="promo_title">-30% </div>
-								<div class="promo_subtitle">en tops</div>
+								<div class="promo_subtitle">tops</div>
 							</div>
 						</div>
 						<div class="promo_link"><a href="#">Comprar</a></div>
