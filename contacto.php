@@ -8,7 +8,7 @@
 <body>
     <!--Barra de navegacion-->
     <!--Navbar -->
-    <?php include_once 'View/snippets/menuV2.php';?>
+    <?php include_once 'View/snippets/menuv2.php';?>
     <!--/.Navbar -->
     <?php
 
