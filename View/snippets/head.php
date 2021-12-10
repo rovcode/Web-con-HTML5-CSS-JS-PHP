@@ -19,7 +19,6 @@ $Config = new Config();
     <link rel="apple-touch-icon" href="Public/asset/img/ico.jpg">
     <?php include "css.php"?>
     <link rel="manifest" href="manifest.json">
-    <link rel="shortcut icon" href="Public/asset/img/ico.ico">
-    <script src="./script.js"></script>
+    <link rel="shortcut icon" href="Public/asset/img/ico.ico">    
     <title><?php $Config->setName()?></title>
 </head>

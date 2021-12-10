@@ -13,6 +13,7 @@
 <script src="Public/asset/v2/plugins/parallax-js-master/parallax.min.js"></script>
 <script src="Public/asset/v2/plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="Public/asset/v2/js/custom.js"></script>
+<script src="./script.js"></script>
 <script type="text/javascript">
  $(document).ready(function(){
      var url = $(location).attr('href');
