@@ -21,4 +21,13 @@ $Config = new Config();
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="Public/asset/img/ico.ico">    
     <title><?php $Config->setName()?></title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFHGEB6MCC"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WFHGEB6MCC');
+    </script>
 </head>
