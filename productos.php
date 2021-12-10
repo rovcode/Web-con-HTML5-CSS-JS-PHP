@@ -6,7 +6,7 @@ $URI->Route($var);
 require_once 'config.php';
 $Config = new Config();
 ?>
-<?php include "View/snippets/head.php"?>
+<?php include "View/snippets/head.php";?>
 <style type="text/css">
  /* .producto-ms{
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;

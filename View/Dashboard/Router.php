@@ -17,7 +17,7 @@ class Router
             $controller = ucfirst($nameController[0]);
             break;
         }
-    echo $action;
+    //echo $action;
      /**************************************/
     /*          PERSONAL             */
     /*************************************/
